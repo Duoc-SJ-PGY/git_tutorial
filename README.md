@@ -26,7 +26,7 @@ Si seguiste correctamente los pasos, ¡Felicitaciones! 🎉 Tienes tu primer rep
 
 ### ¡Ya clonamos!... y ahora ¿qué hacemos?
 
-Ahora podemos entrar a esta carpeta (la cual posee la configuración de tu `git` completa y podemos comenzar a ejecutar, modificar y añadir o eliminar cosas a nuestra carpeta, git se hará cargo de versionar y contorlar los cambios realizados.
+Ahora podemos entrar a esta carpeta con el comando `cd {micarpeta}` (quitando las llaves), la cual posee la configuración de tu `git` completa y podemos comenzar a ejecutar, modificar y añadir o eliminar cosas a nuestra carpeta, git se hará cargo de versionar y contorlar los cambios realizados.
 
 1. Crea un nuevo archivo de texto en la carpeta
 	- **En windows:** Botón secundario en una parte vacía de la carpeta y luego `Nuevo` > `Documento de Texto`, nombre el archivo `PruebaGit`.
@@ -59,7 +59,7 @@ Creemos un par de versiones y veamos que hacer con ellas:
 
 1. Para crear nuestra nueva `rama` utilizaremos el comando `checkout` que también nos permite **cambiar entre ramas**.
 	- Ejecutamos `git checkout -b prueba_git` donde `-b` es para inticar una nueva rama (`branch` en inglés).
-	- Ésto nos dejará automáticamente una copia del código de la rama `main` en la nueva rama `prueba_git`.
+	- Ésto nos dejará automáticamente una copia del código de la rama `main` en la nueva rama `pruebagit`.
 2. Ahora podemos realizar cambios en esta rama y no alterar el proceso del código que ya poseemos en la rama `main` hasta que esté listo.
 3. Si queremos registrar las modificaciones de esta rama nueva `pruebagit`:
 	- `git add .` para agregar todos los cambios a "preparado".
